@@ -1,0 +1,8 @@
+SELECT StageName, COUNT(ID) FROM Opportunity GROUP BY StageName
+
+SELECT StageName, COUNT(ID), MAX(Amount) FROM Opportunity GROUP BY StageName
+
+SELECT StageName, COUNT(ID), MAX(Amount), MIN(Amount), AVG(Amount) FROM Opportunity GROUP BY StageName
+
+SELECT StageName, LeadSource, COUNT(ID), MAX(Amount), MIN(Amount), AVG(Amount) FROM Opportunity GROUP BY StageName, LeadSource
+

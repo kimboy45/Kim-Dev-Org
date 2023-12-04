@@ -1,0 +1,1 @@
+SELECT Name, Department, Title, Phone, Email FROM Contact WHERE Title IN ('VP', 'SVP') AND Department = 'Finance' ORDER BY Name DESC LIMIT 3

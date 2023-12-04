@@ -1,0 +1,8 @@
+//Standard object
+SELECT Name, Phone, Website, 
+(SELECT Name, Department, Email FROM Contacts WHERE Department = 'Finance'), 
+(SELECT Name FROM Opportunities) FROM Account LIMIT 3
+
+SELECT Name, Floors__c, Garage__c FROM Rental_Unit__c
+
+SELECT Name, (SELECT Name FROM Books__r) FROM Author__c

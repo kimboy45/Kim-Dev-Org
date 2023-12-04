@@ -1,0 +1,3 @@
+// HAVING is applied on the aggregate function
+// WHERE is applied in the field
+SELECT StageName, SUM(Amount) FROM Opportunity GROUP BY StageName HAVING SUM(Amount) > 500
