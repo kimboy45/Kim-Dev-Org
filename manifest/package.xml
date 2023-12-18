@@ -100,7 +100,8 @@
         <name>WebLink</name>
     </types>
 	<types>
-	<members>RetailX_User_Automation</members>
+		<members>RetailX_User_Automation</members>
+		<name>flow</name>
 	</types>
     <version>60.0</version>
 </Package>
