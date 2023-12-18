@@ -101,7 +101,7 @@
     </types>
 	<types>
 		<members>RetailX_User_Automation</members>
-		<name>flow</name>
+		<name>Flow</name>
 	</types>
     <version>60.0</version>
 </Package>
